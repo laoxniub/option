@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.aside {
+  width: 250px;
+  height: 100%;
+  background-color: pink;
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.aside .top_aside {
+  padding: 40px 0 40px;
+}
+.aside .top_aside img {
+  width: 80px;
+  border: 3px solid #ccc;
+}
+.aside .top_aside span {
+  display: block;
+}
+.aside .main_aside a {
+  display: block;
+  padding: 0 20px;
+}
+.aside .main_aside a:hover {
+  background-color: #ccc;
+}
+.meun {
+  height: 500px;
+  background-color: blue;
+  margin-left: 180px;
+}
